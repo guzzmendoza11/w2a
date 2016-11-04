@@ -24,16 +24,19 @@ public class LoginTest {
 		driver.get("http://gmail.com");
 		Thread.sleep(3000L);
 		driver.findElement(By.id("Email")).sendKeys("guzzmendoza@gmail.com");
-		Thread.sleep(3000L);
+		Thread.sleep(2000L);
 		driver.findElement(By.id("next")).click();
 		Thread.sleep(2000L);
 		driver.findElement(By.id("Passwd")).sendKeys("sdkfksf");
+		Thread.sleep(1000L);
+		driver.findElement(By.id("signIn")).click();
+	
 	}
 	
 	@AfterSuite
 	public void tearDown(){
 		
-		driver.quit();
+		//driver.quit();
 	}
 
 }
