@@ -30,6 +30,10 @@ public class LoginTest {
 		driver.findElement(By.id("Passwd")).sendKeys("sdkfksf");
 		Thread.sleep(1000L);
 		driver.findElement(By.id("signIn")).click();
+		
+		/*
+		 * Added new comments.
+		 */
 	
 	}
 	
