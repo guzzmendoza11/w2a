@@ -8,6 +8,9 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 //Video 204: Creating Account on GitHub & Pushing code to the remote repository 
+//Video 205: Introduction to Continuous Integration and configuring Jenkins
+//Video 206: Creating a free style Jenkins project 
+
 public class LoginTest {
 	
 	public static WebDriver driver;
