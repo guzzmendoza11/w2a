@@ -5,12 +5,9 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 //Video 209: Starting with Cucumber Basics
-//@RunWith(Cucumber.class)
+@RunWith(Cucumber.class)
 @CucumberOptions(features="src/test/java/CucumberVideos",plugin = {
 		
-		//glue = "cucumber.steps",
-		//plugin={"html:format"},
-		// features = {"src/cucumber"}
 	   "pretty",
 	   "html:target/cucumber", 
 	   "json:/Applications/Jenkins/JenkinsHome/jobs/CucumberMavenReportingPlugin/target/cucumber.json",
