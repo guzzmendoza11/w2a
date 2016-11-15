@@ -8,6 +8,7 @@ import cucumber.api.java.en.When;
 
 public class developer {
 	
+	
 	@Given("^I am a \"([a-zA-Z]{1,})\" Developer$")
 	public void I_am_a_CoreJava_Developer(String developerTyp){
 	
